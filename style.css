@@ -91,7 +91,7 @@ height: 250px;
     background: #000 !important;
 }
 
-
+/* ----------------resume css----------------- */
 
 .resume
 {
@@ -126,4 +126,15 @@ z-index: 1;
     margin-bottom: 20px;
     margin-left: 20px;
     background-color: #fff;
+}
+
+/* ----------------Contact me css----------------- */
+.contact{
+   padding-top: 50px;
+    background: linear-gradient(rgba (0,0,0,0.6), rgba (0,0,0,0.6));
+    background-image: url(bgimg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+color: #fff;
 }
