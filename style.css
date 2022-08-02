@@ -39,3 +39,54 @@ height: 250px;
     font-style: italic;
     text-align: center;
 }
+/*----------------------information sec---------------------------  */
+.about{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.profile-img{
+   
+    height: 300px;
+}
+.nav-bar{
+  top: 0;
+  position: sticky;
+  z-index: 2;
+
+}
+.navbar{
+    background-color: rgb(24, 23, 23);
+}
+.navbar-nav{
+    color: #fff;
+}
+.nav-bar .navbar-toggler-icon{
+    font-size: 30px;
+    color: #fff;
+}
+.navbar-toggler{
+    outline: none !important;
+
+}
+.navbar-nav
+{
+    float: right;
+    text-align: right;
+}
+.nav-link{
+    color: #fff !important;
+}
+
+
+.skills-bar p {
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+.progress{
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.progress-bar{
+    border-radius: 15px;
+    background: #000 !important;
+}
