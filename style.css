@@ -54,8 +54,10 @@ height: 250px;
   z-index: 2;
 
 }
+
 .navbar{
-    background-color: rgb(24, 23, 23);
+    background-color: rgb(73, 65, 65);
+    color: #fff;
 }
 .navbar-nav{
     color: #fff;
@@ -66,6 +68,7 @@ height: 250px;
 }
 .navbar-toggler{
     outline: none !important;
+    background-color: #fff;
 
 }
 .navbar-nav
