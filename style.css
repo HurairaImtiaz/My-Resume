@@ -41,12 +41,13 @@ height: 250px;
 }
 /*----------------------information sec---------------------------  */
 .about{
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-bottom: -150px;
 }
 .profile-img{
-   
-    height: 300px;
+   width: 90%;
+    height: 700px;
+    border: 2px solid black;
 }
 .nav-bar{
   top: 0;
@@ -56,7 +57,7 @@ height: 250px;
 }
 
 .navbar{
-    background-color: rgb(73, 65, 65);
+    background-color: rgb(22, 22, 22);
     color: #fff;
 }
 .navbar-nav{
@@ -68,21 +69,30 @@ height: 250px;
 }
 .navbar-toggler{
     outline: none !important;
-    background-color: #fff;
-
+}
+.navbar-brand{
+    color: #fff;
+    font-weight: 600;
+    font-family:sans-serif;
+    font-size: 30px;
 }
 .navbar-nav
 {
     float: right;
     text-align: right;
+    font-weight: 600;
 }
 .nav-link{
     color: #fff !important;
 }
+.navbar .fa-bars{
+    color: #fff;
+
+}
 
 
 .skills-bar p {
-    margin-bottom: 5px;
+    margin-bottom: 2px;
     font-weight: 600;
 }
 .progress{
@@ -97,14 +107,14 @@ height: 250px;
 /* ----------------resume css----------------- */
 
 .resume
-{
-    padding-top: 50px;
-    padding-bottom: 30px;
+{margin-top: -70px;
+    padding-top: 30px;
+    padding-bottom: 20px;
     background-color: #f9f9f9;
 
 }
 .resume h3{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     text-align: center;
 }
 .ul-resume{
@@ -112,22 +122,30 @@ height: 250px;
     position: relative;
 
 }
+.ul-resume li h4{
+    color: #fff;
+    background-color: black;
+    padding: 08px;
+    width: 70%;
+    border-radius: 16px;
+}
+
 .ul-resume:before{
 
 content: "";
-background-color: #555;
+background-color: black;
 display: inline-block;
 position: absolute;
-left: 22px;
+left: 10px;
 width: 2px;
 height: 100%;
 z-index: 1;
 
 }
 .ul-resume li{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
     background-color: #fff;
 }
 
@@ -140,4 +158,63 @@ z-index: 1;
     background-size: cover;
     background-attachment: fixed;
 color: #fff;
+}
+
+
+.contact .btn{
+    padding: 10px , 25px , 10px, 25px;
+    margin: 5px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    background: transparent;
+
+}
+.contact .btn:hover{
+    border: 2px solid #000;
+    background-color: #000;
+    transition: 0.5s;
+
+}
+.contact .btn .fa{
+margin-right: 7px;
+}
+.footer{
+    background: #000;
+    color: #fff;
+    margin-top: 20px;
+    padding-top: 10px;
+    height: 50px;
+}
+.fa-heart-o{
+    color: red;
+}
+
+
+
+/* social media icons */
+
+.social-media{
+    position: sticky;
+    width: 60%;
+    top: 50%;
+    z-index: 1;
+}
+.social-media ul{
+    padding: inherit;
+}
+.social-media ul li{
+    height: 45px;
+    width: 40px;
+    padding-left: 10px;
+    padding-top: 8px;
+    color: #fff;
+    background: #000;
+    list-style-type: none;
+    margin-top: 3px;
+}
+.social-media ul li:hover{
+    width: 80px;
+    transition: 1s;
+    padding-left: 40px;
+
 }
