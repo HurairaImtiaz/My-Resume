@@ -218,3 +218,39 @@ margin-right: 7px;
     padding-left: 40px;
 
 }
+
+/* ----------------Projects css----------------- */
+
+.projects{
+    padding-top: 50px;
+     background: linear-gradient(rgba (0,0,0,0.6), rgba (0,0,0,0.6));
+     /* background-image: url(bgimg.jpg);
+     background-position: center;
+     background-size: cover;
+     background-attachment: fixed; */
+ color: #000;
+ }
+ .projects .img{
+    width: 100px;
+
+
+    width: 100px;
+    height: 116px;
+    padding-top: 6px;
+    margin-top: 10px;
+    border: 2px solid #fff;
+    float: left;
+    border-radius: 51px;
+
+
+ }
+ .row .col-md-10 h3{
+    text-align: left;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+ }
+ .row .col-md-10 p{
+    text-align: left;
+ }
